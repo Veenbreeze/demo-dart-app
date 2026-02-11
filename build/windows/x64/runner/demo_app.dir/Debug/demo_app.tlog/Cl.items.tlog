@@ -1,0 +1,5 @@
+C:\src\mobile\demo_app\windows\runner\flutter_window.cpp;C:\src\mobile\demo_app\build\windows\x64\runner\demo_app.dir\Debug\flutter_window.obj
+C:\src\mobile\demo_app\windows\runner\main.cpp;C:\src\mobile\demo_app\build\windows\x64\runner\demo_app.dir\Debug\main.obj
+C:\src\mobile\demo_app\windows\runner\utils.cpp;C:\src\mobile\demo_app\build\windows\x64\runner\demo_app.dir\Debug\utils.obj
+C:\src\mobile\demo_app\windows\runner\win32_window.cpp;C:\src\mobile\demo_app\build\windows\x64\runner\demo_app.dir\Debug\win32_window.obj
+C:\src\mobile\demo_app\windows\flutter\generated_plugin_registrant.cc;C:\src\mobile\demo_app\build\windows\x64\runner\demo_app.dir\Debug\generated_plugin_registrant.obj
