@@ -5,6 +5,7 @@ void main() {
 
   // Tunaweza kuita function nyingine hapa
   greetings();
+  
 }
 
 // Hii ni function nyingine
@@ -12,6 +13,8 @@ void greetings() {
   // Hii itachapisha ujumbe
   // ignore: avoid_print
   print("how are you?");
+
+  
 
 
   // Tunaweza pia kuhesabu kitu hapa
@@ -30,3 +33,4 @@ void thanks() {
   // ignore: avoid_print
   print("Thank you for using this program!");
 }
+

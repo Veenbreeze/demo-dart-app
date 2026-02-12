@@ -25,6 +25,7 @@ class NamePage extends StatefulWidget {
 
 class _NamePage extends State<NamePage> {
   String fullname = '';
+  String mom = '';
 
   @override
   Widget build(BuildContext context) {
@@ -46,11 +47,25 @@ class _NamePage extends State<NamePage> {
                     labelText: "Enter your name",
                     border: OutlineInputBorder(),
                   
-
-                  ),
+                ),
                 ),
                 const SizedBox(height: 16),
                 Text('Name: $fullname'),
+
+                TextField(
+                  onChanged: (value) {
+                   setState(() {
+                     mom = value;
+                   });
+                  },
+                  decoration: InputDecoration(
+                    labelText: "Your mom",
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Text('Mom: $mom')
+
               ],
             ),
           ),
