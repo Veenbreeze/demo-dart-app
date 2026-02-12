@@ -10,6 +10,8 @@
 // All other functions are usually called inside main().
 // */
 
+// ignore_for_file: avoid_print
+
 void main() {
   print("Program Started\n");
 
