@@ -108,3 +108,28 @@ void sayHello(String name, [String greeting = "Hello"]) {
   print("Optional Parameter Function:");
   print("$greeting, $name!\n");
 }
+
+
+
+
+
+
+//variabl
+//containar that hold dat in mmory
+//var spcfy wht dt varialb hold
+//valu  is actual dat stord insid a variabl
+//const is a variabl that hold a value that can not be change
+//dynamic is a variabl that can hold any type of data and can change its type during runtime
+//final is a variabl that can only be set once and must be initialized at the time of declaration,durin runtime it can not be change but it can be set later than declaration 
+
+
+//LIST and MAP
+//List is an ordered collection of items that can hold multiple values of the same type. It is defined using square brackets [] and can be accessed using an index.
+//Map is a collection of key-value pairs where each key is unique. It is defined using curly braces {} and can be accessed using the key. Maps are useful for storing data that has a relationship between keys and values.
+//List<int> numbr = [1, 2, 3, 4,]
+//parameter is a variable that is used to pass information to a function. It is defined in the function declaration and can be used within the function body. Parameters can be of different types, such as positional, named, required, or optional, depending on how they are defined and used in the function.
+//void is a return type that indicates that a function does not return any value. It is used when a function performs an action but does not need to send any data back to the caller. For example, a function that prints a message to the console may have a void return type, as it does not need to return any value.
+//$ is used in Dart for string interpolation, which allows you to embed expressions inside string literals. By using $ followed by a variable name or an expression enclosed in curly braces {}, you can include the value of that variable or the result of the expression directly within the string. For example, if you have a variable name with the value "Alice", you can use string interpolation to create a greeting message like this: "Hello, $name!" which will output "Hello, Alice!" when executed.
+//continue is a control flow statement that is used to skip the current iteration of a loop and move on to the next iteration. When the continue statement is encountered inside a loop, the remaining code in the current iteration is ignored, and the loop proceeds to the next iteration. This can be useful when you want to skip certain conditions or values while iterating through a collection or performing repetitive tasks. For example, if you have a loop that processes a list of numbers and you want to skip any negative numbers, you can use the continue statement to achieve that.
+//return is a control flow statement that is used to exit a function and optionally return a value to the caller. When a return statement is executed, the function immediately stops executing and returns the specified value (if any) to the caller. If no value is specified, the function returns null by default. The return statement can be used to provide output from a function or to indicate that a certain condition has been met. For example, if you have a function that calculates the sum of two numbers, you can use the return statement to return the result of the calculation back to the caller.
+//break is a control flow statement that is used to exit a loop or switch statement prematurely. When the break statement is encountered inside a loop, it immediately terminates the loop and transfers control to the statement following the loop. This can be useful when you want to stop iterating through a collection or when a certain condition is met. For example, if you have a loop that processes a list of numbers and you want to stop processing once you find a specific number, you can use the break statement to exit the loop at that point.
